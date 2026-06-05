@@ -1,0 +1,14 @@
+# Maven build output
+target/
+
+# Local database and runtime logs
+data/
+*.log
+
+# IDE files
+.idea/
+*.iml
+
+# OS artifacts
+.DS_Store
+Thumbs.db

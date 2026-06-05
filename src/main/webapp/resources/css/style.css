@@ -1,0 +1,90 @@
+/* 전체 화면 가운데 배치를 위한 기본 설정 */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f6f7fb;
+    color: #222;
+}
+
+/* 공통 카드 박스 */
+.container {
+    width: 520px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h1 {
+    color: #2441d8;
+    margin-bottom: 24px;
+}
+
+.menu-links {
+    margin-top: 36px;
+}
+
+/* 홈 화면의 두 개 메뉴 링크 */
+.menu-links a,
+.home-link {
+    display: inline-block;
+    margin: 0 16px;
+    color: #2441d8;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 과일 라디오 버튼 영역 */
+.radio-item {
+    display: block;
+    width: fit-content;
+    margin: 12px auto;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 18px;
+    border: 1px solid #999;
+    background: #efefef;
+    cursor: pointer;
+}
+
+.result-list {
+    margin: 24px 0;
+}
+
+/* 결과 한 줄은 이름, 비율, 막대그래프로 구성한다. */
+.result-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.fruit-name {
+    width: 90px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fruit-rate {
+    width: 56px;
+    color: #c53a2d;
+    font-weight: bold;
+}
+
+.bar-wrap {
+    width: 300px;
+    height: 24px;
+    background: #ececec;
+    border: 1px solid #cfcfcf;
+}
+
+/* 실제 투표율 길이를 표현하는 파란색 막대 */
+.bar {
+    height: 100%;
+    background: linear-gradient(90deg, #5e77ff, #223ad1);
+}
