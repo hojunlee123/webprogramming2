@@ -1,4 +1,4 @@
-# Favorite Fruit Survey
+# webprogramming2
 
 JSP, CSS, JDBC를 사용한 여론 조사 예제 프로젝트입니다.
 
